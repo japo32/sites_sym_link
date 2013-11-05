@@ -13,13 +13,23 @@ THe folder names will alse be used in the virtual host domain.
 
 ---
 Defaults:
+
 DIRECTORY=/home/$USER/Sites
+
   -> place where your files exist
+
 ROOT=/var/www
+
   -> htdocs root where your server reads the files. symlinks will be put here.
+
 APACHE_SITES=/etc/apache2/sites-available
+
   -> place where vhost files will be put
+
 HOSTS=/etc
+
   -> location of hosts file
+
 HOST_IP=127.0.0.1
+
   - the ip that will be associated with the folder
